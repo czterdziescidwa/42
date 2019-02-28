@@ -8,11 +8,24 @@
   <meta name="answer to everything" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="42style.css" rel="stylesheet">
 </head>
 
 <body>
- <button class='round-button'>42</button>
+  <button class='round-button'onclick="playSound();">42</button>
+ <audio id="audio" src="./go.mp3" autoplay="false" ></audio> 
+
+<footer>
+   <img src="./city.svg">
+</footer>
+
+<script>
+    function playSound() {
+          const sound = document.getElementById("audio");
+          sound.play();
+      }
+    </script>
 </body>
 
 </html>
