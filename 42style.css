@@ -1,0 +1,20 @@
+body {
+    background-color: red;
+    background-image: linear-gradient(#F98400, #FFA314, #CF7727, #473224);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.round-button {
+    border-radius: 50%;
+    border: none;
+    height: 40vh;
+    width: 40vh;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top:30vh;
+    right: 50%;
+    margin-right: -20vh;
+}
